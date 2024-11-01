@@ -1,0 +1,103 @@
+/*!
+ * table-grid (http://mdo.arevico .github.arevico .io/table-grid)
+ * Released under MIT, (c) 2014 Mark Otto
+ */
+
+.arevico .grid {
+  max-width: 1200px;}
+
+.arevico .grid-800{
+  max-width: 800px;}
+
+.arevico .grid-1000{
+  max-width: 1000px;}
+
+.arevico .grid-640{
+  max-width: 640px;}
+
+.arevico .col-min{
+    width: 1%;
+    white-space: nowrap;}
+
+@media (min-width: 600px) {
+  .arevico .row {
+    display: table;
+    width: 100%;
+    table-layout: auto; }
+
+.arevico .col-fill{
+    display: table-cell;
+    width:100%;}
+
+.arevico .col-min{
+      padding-right:10px;
+      width: 0px;
+      white-space: nowrap;
+     display: table-cell;}
+
+.arevico .col {
+   display: table-cell; }
+
+}
+ /* .arevico .row-padded {
+    margin-left: -1rem;
+    margin-right: -1rem; }
+
+  .arevico .row-padded .arevico .row {
+    border-spacing: 1rem 0; } } */
+    
+@media (min-width: 600px) {
+  .arevico .col1 {
+	display: table-cell;   
+    width: 8.333333%; }
+
+  .arevico .col2 {
+	display: table-cell;
+white-space:nowrap; 
+    width: 16.666667%; }
+
+  .arevico .col3 {
+	display: table-cell; 
+    width: 25%; }
+
+  .arevico .col4 {
+	display: table-cell; 
+    width: 33.333333%; }
+
+  .arevico .col5 {
+	display: table-cell; 
+    width: 41.666667%; }
+
+  .arevico .col6 {
+	display: table-cell; 
+    width: 50%; }
+
+  .arevico .col7 {
+	display: table-cell; 
+    width: 58.333333%; }
+
+  .arevico .col8 {
+	display: table-cell; 
+    width: 66.666667%; }
+
+  .arevico .col9 {
+    display: table-cell; 
+    width: 75%; }
+
+  .arevico .col10 {
+    display: table-cell; 
+    width: 83.333333%; }
+
+  .arevico .col11 {
+    display: table-cell; 
+    width: 91.666667%; } }
+    
+.arevico .row-align-middle .arevico .col {
+  display: table-cell; 
+  vertical-align: middle; }
+
+.arevico .row-reverse {
+  direction: rtl; }
+
+.arevico .row-reverse .arevico .col {
+  direction: ltr; }
